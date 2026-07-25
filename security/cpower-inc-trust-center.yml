@@ -1,0 +1,18 @@
+generated: '2026-07-18'
+method: searched
+source: https://cpowerenergy.com/cpower-high-level-security/
+url: https://cpowerenergy.com/cpower-high-level-security/
+certifications:
+- ISO 27001:2013
+- SOC 2
+frameworks:
+- NIST
+- NERC CIP
+notes: >-
+  CPower publishes a high-level security overview page rather than a dedicated
+  trust portal. It states ISO 27001:2013 certification, SOC 2 compliance (noted
+  as applying to data centers), and adherence to NIST and NERC CIP security
+  frameworks, plus a 24/7 Security Operations Center, least-privilege access
+  controls, full database encryption, and next-generation firewalls with
+  intrusion prevention. No responsible-disclosure policy or security contact
+  email is published on the page.

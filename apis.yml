@@ -1,8 +1,30 @@
 aid: cpower-inc
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/cpower-inc.png
 name: CPower, Inc.
-description: 'CPower, Inc. is a company surfaced as a portfolio company of bessemer-venture-partners and
-  added to the API Evangelist network as a stub for enrichment. Sector: deep-tech. This profile is a lead
-  awaiting the enrichment pipeline.'
+description: >-
+  CPower Energy is a commercial and industrial (C&I) virtual power plant (VPP)
+  operator that helps organizations monetize the flexibility of their energy
+  assets through demand response and distributed energy resource (DER) programs.
+  Its CPower CONNECT platform lets customers view, manage, and unlock revenue
+  from energy assets while supporting grid reliability and sustainability goals.
+  CPower serves data centers, crypto mining, healthcare, education, retail,
+  commercial real estate, industrial operations, and the public sector, and has
+  operated distributed energy programs across the U.S. since 2015. CPower was
+  acquired by NRG Energy and operates a combined C&I VPP platform. This profile
+  was surfaced as a portfolio-adjacent deep-tech lead and enriched by the API
+  Evangelist pipeline; CPower publishes a customer portal and a security and
+  compliance posture but no public developer API at this time.
 url: https://raw.githubusercontent.com/api-evangelist/cpower-inc/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +34,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Deep Tech
+- Energy
+- Demand Response
+- Virtual Power Plant
+- Distributed Energy Resources
+- Grid Flexibility
+- Sustainability
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,4 +52,27 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://cpowerenergymanagement.com/
+  url: https://cpowerenergy.com/
+- type: About
+  url: https://cpowerenergy.com/who-we-are/
+- type: Blog
+  url: https://cpowerenergy.com/the-current/
+- type: Support
+  url: https://cpowerenergy.com/contact/
+- type: Login
+  url: https://portal.cpowercorp.com/
+- type: TermsOfService
+  url: https://cpowerenergy.com/terms-conditions/
+- type: PrivacyPolicy
+  url: https://cpowerenergy.com/privacy-policy/
+- type: TrustCenter
+  url: https://cpowerenergy.com/cpower-high-level-security/
+- type: Compliance
+  url: https://cpowerenergy.com/cpower-high-level-security/
+- type: DomainSecurity
+  url: security/cpower-inc-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
