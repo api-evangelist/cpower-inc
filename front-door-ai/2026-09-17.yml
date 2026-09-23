@@ -1,0 +1,26 @@
+# Front Door AI Index — cpower-inc — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: cpower-inc
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: cpowerenergy.com
+  final_host: cpowerenergy.com
+  ownership: own
+  owner: cpower-inc
+  shares_host_with: null
+  inherited_from: null
+  verdict: scored
+  score: 1
+  host_score: 1
+  density: 1.3
+  words: 767
+  tiers:
+    agentic: 1
+    core: 0
+    model: 0
+  ambiguous: 2
+  top_terms:
+    smart: 2
+    fine-tune: 1
